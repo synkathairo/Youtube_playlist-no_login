@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Youtube playlist maker</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			height: 300px;
+			width: 250px;
+			/* font-family: sans-serif; */
+			/* font-size: 14px; */
+		}
+	</style>
+	<script type="text/javascript" src="popup.js"></script>
+</head>
+<body>
+	<h3>Youtube playlist maker - no login</h3>
+	<p>Enter playlist title:</p>
+	<form>
+		<input type="text" name="titleText" id="titleTextElement" />
+		<input type="button" value="Set title" id="titleSetButton" />
+	</form>
+	<p>Enter video ID to add:</p>
+	<form>
+		<input type="text" name="videoID" id="videoIDText" />
+		<input type="button" value="Add video ID" id="addVideoButton" />
+	</form>
+	<p>Autodetect video from current YouTube page:</p>
+	<button id="autoCurrentButton">Autodetect</button>
+	<p><b>Current URL</b>: </p>
+	<p id="currentURLDisplay"></p>
+	<p><a href="" target="_blank" id="clickURL">🡕</a></p>
+</body>
+</html>

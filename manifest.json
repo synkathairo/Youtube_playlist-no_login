@@ -1,0 +1,17 @@
+{
+	"name": "Youtube playlist maker - no login",
+	"icons": {
+		"48":"icon48.png"
+	},
+	"version": "1.0",
+	"version_name": "2019.04.10-1.0",
+	"description":"Uses YouTube's own URL syntax to make an unlisted playlist. Does not require login.",
+	"options_page":"options.html",
+	"permissions": ["bookmarks","activeTab","tabs"],
+	"browser_action": {
+		"default_popup":"popup.html",
+		"default_title":"Youtube playlist maker - no login"
+	},
+	"default_locale":"en",
+	"manifest_version":2
+}
