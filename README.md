@@ -15,3 +15,7 @@ Go to <chrome://extensions/>, press Load unpacked, select the git directory (i.e
 ## To use
 
 Click the extension icon in the toolbar. The title can be set and a video ID can be pasted. ~~The extension can also autodetect~~ (TODO implementation).
+
+## See also:
+
+https://github.com/soufianesakhi/youtube-playlist-helper 
